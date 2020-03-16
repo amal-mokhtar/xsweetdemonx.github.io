@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400&display=swap&subset=latin-ext');
+@import url("https://db.onlinewebfonts.com/c/49441315ab9ce55176682715f25ea4b2?family=Microgramma+D");
+@font-face {font-family: "Microgramma D"; src: url("https://db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.eot"); src: url("//db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.woff") format("woff"), url("//db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/49441315ab9ce55176682715f25ea4b2.svg#Microgramma D") format("svg"); }
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(138, 92, 138);
+}
+body {
+    background-image: url("https://papers.co/wallpaper/papers.co-sa37-calm-morning-blur-33-iphone6-wallpaper.jpg");
+    background-size: cover;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(179, 199, 255);
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-family: "Microgramma D";
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.nav a:hover {
+    background-color: rgb(255, 255, 255, .3);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-image: url("https://66.media.tumblr.com/c6fcce3fd6fa2811c821b99367b71f3f/tumblr_p6calpvtm01tg7w4qo1_1280.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.bandname {
+    color: rgb(244, 215, 215);
+    margin: 0.5em;
+    font-size: 2em;
+    font-family: "Microgramma D";
+    padding: 0 0.8em;
+
+    
+}
+.bandnamelarge {
+
+    color: rgb(244, 215, 215);
+    margin: 0;
+    font-size: 6em;
+    font-family: "Microgramma D";
+}
+.content-section {
+    margin: 15em;
+}
+
+.container {
+    max-width:2000px;
+    margin: 0;
+    padding: 0 1.8em;
+}
+.section-header {
+    font-family:"Microgramma D";
+    padding: 0.2em;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-band-image {
+    float: left;
+    width: auto;
+    margin: 15px;
+    height: 400px;
+    border-radius: 15%;
+
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 10% 0.5em 10%;
+    color: rgb(179, 199, 255);
+    border: 2px solid rgb(179, 199, 255);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    margin: 0.3em auto;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.bandname-home {
+    color: rgb(244, 215, 215);
+    margin: 0.5em;
+    font-size: 2em;
+    font-family: "Microgramma D";
+    padding: 0 0.45em;
+   
+}
+
+.tour-row {
+    border-bottom: 1px solid rgb(244, 215, 215);
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: rgb(138, 92, 138);
+    font-weight: bolder;
+    width: 11%;
+}
+
+.tour-city {
+    width: 50%;
+}
+
+.tour-arena {
+    width: 24%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: rgb(138, 92, 138);
+    font-weight: bolder;
+    background-color: rgb(244, 215, 215);
+    border: none;
+    border-radius: 0.3em;
+}
+
+.btn-primary:hover {
+    background-color: rgb(239, 195, 195);
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: rgb(138, 92, 138);
+    margin-bottom: 15px;
+    
+}
+
+
+.shop-item-image{
+    
+    width: auto;
+
+}
+.shop-item-details {
+    display: flex;
+    align-items: center; 
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    font-weight: bolder;
+    text-align: center;
+    
+   margin: center;
+}
+
+
+
+.shop-items {
+
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bolder;
+    font-size:1.25em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 215, 215);
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    font-weight: bold;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    background-color: #eb5757;
+    border-radius: .3em;
+    font-weight: bolder;
+    padding: 0.8em;
+    border: 1px solid rgb(138, 92, 138);
+}
+
+.btn-danger:hover {
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+    height: 33px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 92, 138);
+    background-color: #eee;
+    color: rgb(138, 92, 138);
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid rgb(244, 215, 215);
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 10px;  
+}
+
+.cart-total-title {
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.cart-total-price {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
